@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  database:
+    container_name: postgres_logistics
+    image: postgres:11.5
+    environment:
+      POSTGRES_DB: vertical-logistics
+      POSTGRES_USER: vertical-logistics
+      POSTGRES_PASSWORD: vertical-logistics123
+    ports:
+      - "5434:5432"
