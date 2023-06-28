@@ -1,0 +1,48 @@
+[
+  {
+    "user_id":2,
+    "name":"Augustus Aufderhar",
+    "orders":[
+      {
+        "order_id":2,
+        "total":3265.44,
+        "date":"2021-09-10",
+        "products":[
+          {
+            "product_id":3,
+            "value":973.27
+          },
+          {
+            "product_id":4,
+            "value":1320.49
+          },
+          {
+            "product_id":1,
+            "value":971.68
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user_id":1,
+    "name":"Sammie Baumbach",
+    "orders":[
+      {
+        "order_id":1,
+        "total":2191.16,
+        "date":"2021-10-28",
+        "products":[
+          {
+            "product_id":1,
+            "value":725.86
+          },
+          {
+            "product_id":2,
+            "value":1465.30
+          }
+        ]
+      }
+    ]
+  }
+]

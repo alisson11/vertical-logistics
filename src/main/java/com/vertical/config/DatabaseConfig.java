@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @EnableJpaRepositories(
 		entityManagerFactoryRef = "entityManagerFactory",
-		basePackages = {"com.logistics"})
+		basePackages = {"com.vertical"})
 public class DatabaseConfig {
 
 	@Autowired private Environment env;

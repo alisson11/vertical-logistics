@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = "com.logistics.entities")
+@EntityScan(basePackages = "com.vertical.entities")
 public class LogisticsApplication {
 
 	public static void main(String[] args) {
